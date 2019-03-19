@@ -1,0 +1,9 @@
+ #include <iostream>
+   using namespace std;
+   int main() {
+       int age; // Змінна для запису віку
+       cout << "How old are You?\n"; // Скільки вам років?
+       cin >> age; // Зчитування віку
+       cout << "You are " << age << " years old\n"; // Результат
+       return 0;
+   }
